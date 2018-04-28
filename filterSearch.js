@@ -1,4 +1,23 @@
 function search() {
+    // let me = this
+    // this.mainPanelListShip.sort(function (a,b) {
+    //   a = a.name ? a.name : a
+    //   b = b.name ? b.name : b
+    //   let filterVU = me.filterValue.toUpperCase()
+    //   let aUArr = a.toUpperCase().split('')
+    //   let bUArr = b.toUpperCase().split('')
+    //   for (let i = 0; i < aUArr.length; i++) {
+    //     if (aUArr[i] === filterVU && !bUArr.includes(filterVU)) {
+    //       return -(aUArr.length - i)
+    //     }
+    //   }
+    //   for (let i = 0; i < bUArr.length; i++) {
+    //     if (bUArr[i] === filterVU && !aUArr.includes(filterVU)) {
+    //       return bUArr.length - i
+    //     }
+    //   }
+    //   return 0
+    // })
     let filterVU = this.filterValue.toUpperCase()
     let list = this.mainPanelListShip
     let filList = []
